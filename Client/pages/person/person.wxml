@@ -1,0 +1,36 @@
+<view>
+  <view class="fenge"></view>
+  <view class="login">
+    <button bindgetuserinfo="onGotUserInfo" hidden="{{show_bt}}" openType="getUserInfo" type="primary">登录授权</button>
+  </view>
+  <view class="person_content">
+    <view>
+      <image class="person_image" hidden="{{show_img}}" src="{{userInfo.avatarUrl}}"></image>
+    </view>
+  </view>
+  <view class="name">
+    <text>{{userInfo.nickName}}</text>
+  </view>
+  <view class="fenge1"></view>
+  <view class="person_item">
+    <view class="text_image" bindtap='editMgs'>
+      <image class="png" src="../../images/usermgs.png"></image>
+      <text>我的信息</text>
+      <image class="in" src="../../images/in.png"></image>
+    </view>
+    <view class="fenge2"></view>
+    <view class="text_image" bindtap='suggest'>
+      <image class="png" src="../../images/message.png"></image>
+      <text>提点建议</text>
+      <image class="in" src="../../images/in.png"></image>
+    </view>
+    <view class="fenge2"></view>
+    <navigator hoverClass="navigator-hover" url="../about/about">
+      <view class="text_image">
+        <image class="png" src="../../images/about.png"></image>
+        <text>关于助手</text>
+        <image class="in" src="../../images/in.png"></image>
+      </view>
+    </navigator>
+  </view>
+</view>

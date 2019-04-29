@@ -1,0 +1,5 @@
+<!--pages/historyrecord/historyrecord.wxml-->
+<view class='record' wx:for="{{record}}" bindtap='chooserecord' data-keyid='{{item.keyid}}' data-lessonid='{{item.lessonid}}'>
+  <view class='times'>第{{index+1}}次考勤</view>
+  <text class='time'>{{item.time}}</text>
+</view>

@@ -1,0 +1,17 @@
+<view class='p_type1'>
+  <button plain='true'  bindtap='modalinput1'><image src='../../images/student.jpg'></image></button>
+</view>
+<text class='type_text'>我是学生</text>
+<view class='p_type2'>
+  <button plain='true' openType="getUserInfo" bindgetuserinfo="modalinput2"><image src='../../images/teacher.jpg'></image></button>
+</view>
+<text class='type_text'>我是老师</text>
+<view>
+  <modal hidden="{{hiddenmodalput}}" title="请补充相关信息" confirm-text="添加" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+    <input class='inputinfo' hidden="{{hidden1}}" type='text' placeholder="姓名：" bindinput='setname' value='{{sname}}' />
+    <input class='inputinfo' hidden="{{hidden1}}" type='number' placeholder="学号：" bindinput='setnum' value='{{snum}}' />
+    <input class='inputinfo' hidden="{{hidden2}}" type='text' placeholder="课程名称：" bindinput='setlesson' value='{{slesson}}' />
+    <input class='inputinfo' hidden="{{hidden2}}" type='text' placeholder="班级名称：" bindinput='setclass' value='{{sclass}}' />
+    <button hidden="{{hidden2}}" bindtap="goLesson" style='font-size:12pt;color:green'>已经创建过了，马上去考勤</button>
+  </modal>
+</view>

@@ -1,0 +1,40 @@
+/* pages/usermassage/usermassage.wxss */
+.png {
+  height: 86px;
+  width: 86px;
+}
+.usermgs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 20%;
+}
+.usermgs text{
+  color: green;
+  font-size: 14pt;
+  align-items: flex-start;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+.name input{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: 500rpx;
+  margin-left: 20rpx;
+  border-color: green;
+}
+.tips{
+  color:green;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.bt_send {
+    width: 90%;
+    margin-top: 80rpx;
+}

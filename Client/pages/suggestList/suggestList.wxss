@@ -1,0 +1,52 @@
+/* pages/suggestList/suggestList.wxss */
+
+page {
+  background: gainsboro;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  position: relative;
+  width: 95%;
+  margin: 8px;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: 2rpx 6rpx 6rpx 2rpx pink;
+}
+
+.list_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userImg {
+  height: 80rpx;
+  width: 80rpx;
+  margin: 5rpx;
+  border-radius: 50%; /*圆角弧度 */
+}
+
+.nickname {
+  font-size: 10pt;
+  color: green;
+  margin-right: 10rpx;
+  
+}
+
+.suggestTime {
+  font-size: 8pt;
+  color: gainsboro;
+  margin-left: 250rpx;
+}
+.list_bottom{
+  margin-left: 85rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.content {
+  font-size: 10pt;
+  /*padding: 0 56rpx;首行缩进2字符*/
+}

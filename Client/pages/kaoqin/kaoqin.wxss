@@ -1,0 +1,25 @@
+.input {
+  padding-left: 10px;
+  height: 44px;
+}
+
+.inputView {
+  border: 2px solid #09bb07;
+  border-radius: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.kaoqin {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.signKey {
+  display: flex;
+  font-size: 20pt;
+  justify-content: center;
+  color: gray;
+}

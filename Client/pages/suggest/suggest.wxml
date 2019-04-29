@@ -1,0 +1,14 @@
+<view class='heiheihei1'>
+<image  src='../../images/heiheihei1.png'></image>
+</view>
+<view class="conts">
+  <form bindsubmit="bindFormSubmit">
+    <textarea class="areas" placeholder='{{placeholder}}' maxlength="{{maxlength}}" bindinput="inputs"  name="textarea" value='{{value}}'>
+      <text class="currentWordNumber">{{currentWordNumber|0}}/{{maxlength}}</text>
+    </textarea>
+    <button form-type="submit" type='primary'>提交</button>
+  </form>
+</view>
+<view class='heiheihei'>
+<image  src='../../images/heiheihei.png'></image>
+</view>

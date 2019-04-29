@@ -1,0 +1,8 @@
+<!--pages/kaoqin/kaoqin.wxml-->
+<view class="inputView" style="margin-top: 40% ">
+  <input class="input" type="number" placeholder="请输入考勤口令" placeholder-style="color: green" bindinput="keyInput" value='{{sginKey}}' />
+</view>
+<button class='kaoqin' type='primary' bindtap='kaoqin'>发起考勤</button>
+  <modal hidden="{{hiddenmodalput}}" title="考勤口令" confirm-text="考勤情况" no-cancel="true"  bindconfirm="confirm">
+    <text class='signKey'>{{showKey}}</text>
+  </modal>

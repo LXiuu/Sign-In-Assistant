@@ -1,0 +1,18 @@
+<!--pages/queqinList/queqinList.wxml-->
+<view class='list_num'>缺勤人数:{{length1}}</view>
+
+<view class='list_top'>
+  <text>学号</text>
+  <text>姓名</text>
+  <text>缺勤时间</text>
+</view>
+<template name="msgItem">
+  <view class='list'>
+    <text class='slesson'>{{xuehao}}</text>
+    <text class='sclass'>{{name}}</text>
+    <text class='signTime'>{{qTime}}</text>
+  </view>
+</template>
+<view class='content_item' wx:for="{{queqinList}}">
+  <template is="msgItem" data="{{...item}}" />
+</view>

@@ -1,0 +1,47 @@
+/* pages/beizu/beizu.wxss */
+.conts {
+  border: 1rpx soldi red;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.areas {
+  height: 150px;
+  width: 98%;
+  font-size: 12pt;
+  border: 1rpx solid gainsboro;
+  padding-top: 30rpx;
+  padding-left: 10rpx;
+  margin-bottom: 20px;
+  background-color: rgb(243, 241, 241);
+}
+
+.currentWordNumber {
+  font-size: 10pt;
+  color: gray;
+  position: absolute;
+  right: 5px;
+  bottom: 6rpx;
+}
+.heiheihei1 {
+  display: flex;
+  width:100%; 
+}
+
+.heiheihei1 image {
+  height: 56px;
+  width: 56px;
+}
+.heiheihei {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  width:100%;
+}
+
+.heiheihei image {
+  height: 56px;
+  width: 56px;
+}

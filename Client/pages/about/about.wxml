@@ -1,0 +1,11 @@
+<view>
+  <view class="tubiao" bindlongtap='mysterious'>
+    <image class="png" src="../../images/tubiao.png"></image>
+  </view>
+  <view class="statement">
+    <text>「桂电考勤小助手」由 LiXiuu 个人开发，难免有未完善之处，希望为桂电所有师生在工作、课堂或其他生活特定场景提供一个考勤小工具，期待你的使用！😘</text>
+  </view>
+  <view class="contact">
+    <text>联系方式：lxiuuu@163.com</text>
+  </view>
+</view>

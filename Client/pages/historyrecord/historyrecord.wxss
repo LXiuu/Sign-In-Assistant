@@ -1,0 +1,33 @@
+/* pages/historyrecord/historyrecord.wxss */
+
+/* pages/lesson/lesson.wxss */
+
+page {
+  height: 100%;
+  background-color: gainsboro;
+}
+
+.record {
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border-radius: 5px; /*圆角弧度 */
+  border-color: black; /*边框颜色 */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.times {
+  color: green;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.time {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  color: gainsboro;
+}

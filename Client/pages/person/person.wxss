@@ -1,0 +1,68 @@
+page {
+  background: #dcdcdc;
+}
+
+.person_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.person_image {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0rpx 0rpx 6rpx 2rpx pink;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.fenge1 {
+  border: 16px solid gainsboro;
+}
+
+.fenge2 {
+  margin-left: 20px;
+  border: 1px solid gainsboro;
+}
+
+.person_item {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.text_image {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+}
+
+.png {
+  width: 45rpx;
+  height: 45rpx;
+  margin-top: 4rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.in {
+  width: 32rpx;
+  height: 32rpx;
+  margin-top: 10rpx;
+  margin-left: 418rpx;
+}

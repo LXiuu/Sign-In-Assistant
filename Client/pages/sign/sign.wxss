@@ -1,0 +1,17 @@
+.input{
+    padding-left: 10px;
+    height: 44px;
+}
+
+.inputView{
+    border:  2px solid #09bb07;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.sign{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+}

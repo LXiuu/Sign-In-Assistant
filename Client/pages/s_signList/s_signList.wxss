@@ -1,0 +1,33 @@
+/* pages/s_signList/s_signList.wxss */
+.stopSign {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.list_num {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.list_top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12pt;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10pt;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.signTime{
+  display: flex;
+  align-items: center;
+  font-size: 8pt;
+  color: gainsboro;
+}

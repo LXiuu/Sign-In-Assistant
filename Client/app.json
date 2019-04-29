@@ -1,0 +1,41 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/sign/sign",
+    "pages/kaoqin/kaoqin",
+    "pages/student_lesson/student_lesson",
+    "pages/teacher_lesson/teacher_lesson",
+    "pages/s_signList/s_signList",
+    "pages/t_signList/t_signList",
+    "pages/queqinList/queqinList",
+    "pages/historyrecord/historyrecord",
+    "pages/person/person",
+    "pages/suggest/suggest",
+    "pages/about/about",
+    "pages/usermassage/usermassage",
+    "pages/suggestList/suggestList"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#38A45A",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_press.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_press.png",
+        "pagePath": "pages/person/person"
+      }
+    ]
+  }
+}

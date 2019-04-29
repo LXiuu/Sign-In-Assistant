@@ -1,0 +1,23 @@
+<view class="marquee_container" style="--marqueeWidth--:-12em">
+  <view class="marquee_text">📢：{{tips}}</view>
+</view>
+
+<template name="msgItem">
+  <view class='lesson' bindtap='chooselesson' bindlongpress='deletelesson' data-id='{{lessonId}}' data-lesson='{{slesson}}'>
+    <view class='mylesson'>
+      <text class='slesson'>{{slesson}}</text>
+      <text class='sclass'>{{sclass}}</text>
+    </view>
+    <view class='setTime'>
+      <text>{{setTime}}</text>
+    </view>
+  </view>
+</template>
+<view class='content_item' wx:for="{{lesson}}">
+  <template is="msgItem" data="{{...item}}" />
+</view>
+<view>
+  <modal hidden="{{hiddenmodalput}}" title="提示" confirm-text="查看历史考勤" bindconfirm="confirm" bindcancel="cancel" no-cancel="true">
+    <button bindtap='goKaoqin' style='font-size:12pt;color:green'>马上去考勤</button>
+  </modal>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/sign/sign.wxml-->
+<view class="inputView" style="margin-top: 40% ">
+  <input class="input" type="number" placeholder="请输入签到口令" placeholder-style="color: green" bindinput="keyInput" value='{{sginKey}}' />
+</view>
+<button class='sign' type='primary' bindtap='sign'>签到</button>

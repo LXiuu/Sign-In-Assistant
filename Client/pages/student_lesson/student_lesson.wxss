@@ -1,0 +1,98 @@
+page {
+  height: 100%;
+  background-color: gainsboro;
+}
+
+.addlesson {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+}
+
+.addlesson button {
+  font-size: 12pt;
+  align-items: center;
+  border-radius: 0%; /*圆角弧度 */
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 5rpx;
+}
+
+.addlesson button::after {
+  border: none;
+  padding: 0
+}
+
+.lesson {
+  height: 70px;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border-radius: 5px; /*圆角弧度 */
+  border-color: black; /*边框颜色 */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.mylesson {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slesson {
+  margin-left: 10px;
+  overflow: hidden; /*单行文本溢出*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: green;
+}
+
+.sclass {
+  margin-right: 10px;
+  overflow: hidden; /*单行文本溢出*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.setTime {
+  font-size: 8pt;
+  color: gainsboro;
+  margin-top: 10px;
+  margin-right: 5px;
+  text-align: right;
+}
+@keyframes around {
+  from {
+   margin-left: 100%;
+  }
+  to {
+   /* var接受传入的变量 */
+   margin-left: var(--marqueeWidth--);
+  }
+ }
+.marquee_container{
+  height: 50rpx;
+  line-height: 44rpx;
+  position: relative;
+  width: 100%;
+  margin-top:0rpx;
+}
+.marquee_container:hover{
+  /* 不起作用 */
+  animation-play-state: paused;
+}
+.marquee_text{
+
+  color:#fff;
+  font-size: 28rpx;
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: around;
+  animation-duration: 10s;  /*过渡时间*/
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+}

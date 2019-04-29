@@ -1,0 +1,16 @@
+<!--pages/suggestList/suggestList.wxml-->
+<template name="msgItem">
+  <view class='list'>
+    <view class='list_top'>
+    <image  class='userImg' src='{{userImg}}'></image>
+    <text class='nickname'>{{nickName}}</text>
+    <text class='suggestTime'>{{suggestTime}}</text>
+    </view>
+    <view class='list_bottom'>
+      <text class='content'>{{content}}</text>
+      </view>
+  </view>
+</template>
+<view class='content_item' wx:for="{{suggestList}}">
+  <template is="msgItem" data="{{...item}}" />
+</view>

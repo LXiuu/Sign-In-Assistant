@@ -1,0 +1,18 @@
+<!--pages/s_signList/s_signList.wxml-->
+<view class='list_num'>已签到人数:{{length1}}</view>
+
+<view class='list_top'>
+  <text>学号</text>
+  <text>姓名</text>
+  <text>签到时间</text>
+</view>
+<template name="msgItem">
+  <view class='list'>
+    <text class='slesson'>{{xuehao}}</text>
+    <text class='sclass'>{{name}}</text>
+    <text class='signTime'>{{signTime}}</text>
+  </view>
+</template>
+<view class='content_item' wx:for="{{signList}}">
+  <template is="msgItem" data="{{...item}}" />
+</view>

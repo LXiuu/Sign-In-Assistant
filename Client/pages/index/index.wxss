@@ -1,0 +1,43 @@
+.p_type1{
+  margin-top: 25%;
+
+}
+.p_type1 button{
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 50%;/*圆角弧度 */
+  box-shadow: 0rpx 0rpx  6rpx 1rpx lavender;
+  border: none;
+  padding: 0;
+}
+.p_type1 image{
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 50%;/*圆角弧度 */
+}
+.p_type2{
+  margin-top: 5%;
+}
+.p_type2 button{
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 50%;/*圆角弧度 */
+  box-shadow: 0rpx 0rpx  6rpx 1rpx lavender;
+  border: none;
+  padding: 0;
+}
+.p_type2 image{
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 50%;/*圆角弧度 */
+}
+.inputinfo{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin: 20px;
+}
+.type_text{
+  display: flex;
+  justify-content: center;
+  color: green;
+}

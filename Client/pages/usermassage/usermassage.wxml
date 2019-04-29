@@ -1,0 +1,18 @@
+<!--pages/usermassage/usermassage.wxml-->
+<view class='usermgs'>
+  <image class="png" src="../../images/person.png" bindtap='mystery'></image>
+  <text>{{name}}</text>
+  <text>{{xuehao}}</text>
+</view>
+<form bindsubmit="bindFormSubmit">
+  <text class='tips'>📢：可有一次修改机会哦！</text>
+  <view class='name'>
+    <text class="text_tip">姓 名:</text>
+    <input class='inputinfo' type='text' placeholder="姓名" name="name" value='{{value}}'/>
+  </view>
+  <view class='name'>
+    <text class="text_tip">学 号:</text>
+    <input class='inputinfo' type='number' placeholder="学号" name="xuehao" value='{{value}}'/>
+  </view>
+  <button class="bt_send" form-type="submit" type="primary">提交 </button>
+</form>
