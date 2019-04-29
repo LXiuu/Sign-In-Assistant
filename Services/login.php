@@ -2,7 +2,7 @@
   	include("conn.php");
   	
     $code = $_GET['code'];//小程序传来的code值  
-    $url = 'https://api.weixin.qq.com/sns/jscode2session?appid=wx695d526411eeaf32&secret=7e665609d2219101fe43647f4ef36329&js_code=' . $code . '&grant_type=authorization_code';  
+    $url = 'https://api.weixin.qq.com/sns/jscode2session?appid=你小程序的appid&secret=你小程序的secret&js_code=' . $code . '&grant_type=authorization_code';  
 
 	$ch = curl_init(); 
 	$timeout = 5; 
